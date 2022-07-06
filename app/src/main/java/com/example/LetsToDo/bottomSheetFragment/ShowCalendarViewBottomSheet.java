@@ -1,4 +1,4 @@
-package com.codegama.todolistapplication.bottomSheetFragment;
+package com.example.LetsToDo.bottomSheetFragment;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -12,17 +12,15 @@ import androidx.annotation.RequiresApi;
 
 import com.applandeo.materialcalendarview.CalendarView;
 import com.applandeo.materialcalendarview.EventDay;
-import com.codegama.todolistapplication.R;
-import com.codegama.todolistapplication.activity.MainActivity;
-import com.codegama.todolistapplication.database.DatabaseClient;
-import com.codegama.todolistapplication.model.Task;
+import com.example.LetsToDo.R;
+import com.example.LetsToDo.activity.MainActivity;
+import com.example.LetsToDo.database.DatabaseClient;
+import com.example.LetsToDo.model.Task;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-import com.google.android.material.drawable.DrawableUtils;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 import butterknife.BindView;

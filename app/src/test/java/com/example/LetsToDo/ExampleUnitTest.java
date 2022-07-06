@@ -1,4 +1,4 @@
-package com.codegama.todolistapplication;
+package com.example.LetsToDo;
 
 import org.junit.Test;
 

@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/todo-list/app/src/main/res/layout/activity_alarm.xml" value="0.259375" />
+        <entry key="..\:/todo-list/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/todo-list/app/src/main/res/layout/dialog_completed_theme.xml" value="0.259375" />
+        <entry key="..\:/todo-list/app/src/main/res/layout/fragment_calendar_view.xml" value="0.259375" />
+        <entry key="..\:/todo-list/app/src/main/res/layout/fragment_create_task.xml" value="0.259375" />
+        <entry key="..\:/todo-list/app/src/main/res/layout/item_task.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

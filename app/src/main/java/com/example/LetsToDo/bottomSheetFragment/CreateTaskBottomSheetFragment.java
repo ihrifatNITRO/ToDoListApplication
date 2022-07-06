@@ -1,48 +1,33 @@
-package com.codegama.todolistapplication.bottomSheetFragment;
+package com.example.LetsToDo.bottomSheetFragment;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.os.SystemClock;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import androidx.core.app.NotificationCompat;
 
-import com.codegama.todolistapplication.R;
-import com.codegama.todolistapplication.activity.AlarmActivity;
-import com.codegama.todolistapplication.activity.MainActivity;
-import com.codegama.todolistapplication.broadcastReceiver.AlarmBroadcastReceiver;
-import com.codegama.todolistapplication.database.DatabaseClient;
-import com.codegama.todolistapplication.model.Task;
+import com.example.LetsToDo.R;
+import com.example.LetsToDo.activity.MainActivity;
+import com.example.LetsToDo.broadcastReceiver.AlarmBroadcastReceiver;
+import com.example.LetsToDo.database.DatabaseClient;
+import com.example.LetsToDo.model.Task;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
-import com.zubair.alarmmanager.builder.AlarmBuilder;
-import com.zubair.alarmmanager.enums.AlarmType;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

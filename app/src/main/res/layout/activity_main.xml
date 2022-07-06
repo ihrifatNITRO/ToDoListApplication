@@ -22,15 +22,15 @@
    <TextView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Hello"
+       android:text="Feeling Lazy???"
        android:layout_marginTop="20dp"
-       android:textColor="@color/colorAccent"
-       android:textSize="18sp"/>
+       android:textColor="@android:color/holo_red_dark"
+       android:textSize="20sp"/>
 
    <TextView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="All tasks"
+       android:text="Get up and work!!!"
        fontPath="fonts/nunito_extra_bold.ttf"
        android:textStyle="bold"
        android:textColor="@color/colorAccent"
@@ -40,8 +40,8 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="right|center"
             android:background="@drawable/calendar"
             android:id="@+id/calendar"/>
@@ -82,7 +82,6 @@
        android:layout_gravity="center"
        android:textColor="@color/colorAccent"
        android:textSize="20sp"
-       android:drawableLeft="@drawable/ic_add_black_24dp"
        android:textAlignment="center"
        android:layout_weight="0.5"
        android:layout_marginBottom="20dp"/>
